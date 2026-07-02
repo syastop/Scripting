@@ -8,7 +8,7 @@ public class Trampoline : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // изменение силы прыжка
-        other.GetComponent<Jump>().jumpStrength = 4.0f;
+        other.GetComponent<Jump>().jumpStrength = 11.0f;
     }
 
     // выход
